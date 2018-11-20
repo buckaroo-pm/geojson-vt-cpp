@@ -1,0 +1,21 @@
+manifest = "585b3ca3dedd8884b486d887e6930e7b892db9f0ab2b9c34fcd7aad78484d9e2"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/mapbox-geometry.hpp"
+target = "//:geometry"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/mapbox-variant"
+target = "//:variant"
+
+[[lock]]
+name = "github.com/buckaroo-pm/Catch2"
+revision = "65ab25beb9080c77a7aa0edbfab1812a06e174d1"
+
+[[lock]]
+name = "github.com/buckaroo-pm/mapbox-geometry.hpp"
+revision = "dc886c9705ebec3b4c8ddf3b305537a450267944"
+
+[[lock]]
+name = "github.com/buckaroo-pm/mapbox-variant"
+revision = "e735b7c1be9fe58e364685e6093628644776baf3"

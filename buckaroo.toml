@@ -1,0 +1,9 @@
+targets = [ "//:geojson-vt-cpp" ]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/mapbox-geometry.hpp"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/mapbox-variant"
+version = "branch=master"
